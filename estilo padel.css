@@ -1,18 +1,12 @@
-body {
-    
-    margin:auto;
-    padding: top;
-    width:100%;
-    margin: 0 auto;
-    min-width:600px;
-    max-width:2000px
-}
-
-body {
-  background-image: url('https://www.teahub.io/photos/full/95-956290_minimal-white-wallpaper-4k.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
- }
+ @media screen and (min-width:300px) and (max-width:800px) {
+  body{
+    font-size:0.8em;} 
+    sidebar{display:none;
+      background-image: url('https://www.teahub.io/photos/full/95-956290_minimal-white-wallpaper-4k.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }  
+  }
  h1 {
   text-align: center;
   width:500px;
